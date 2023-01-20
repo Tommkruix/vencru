@@ -35,7 +35,7 @@ export const NavMenuItems: NavMenuType[] = [
   {
     title: "Dashboard",
     icon: (
-      <DashboardIcon className="inline mt-1 mr-4 transition-transform duration-200 transform md:-mt-1" />
+      <DashboardIcon className="inline mt-1 mr-4 transition-transform duration-200 transform md:-mt-0.5" />
     ),
     rightLabel: "10",
   },

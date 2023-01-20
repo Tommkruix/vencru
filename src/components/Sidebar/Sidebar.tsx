@@ -17,13 +17,13 @@ const Sidebar: FC = (): ReactElement => {
         key={index}
         className={`${addBreak && "mb-8"} ${
           rightLabel && "flex"
-        } block px-4 py-2 mt-2 text-base font-medium text-gray-700 rounded-lg hover:text-gray-700 focus:text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline`}
+        } block px-4 py-2 my-2 text-base font-medium text-gray-700 rounded-lg hover:text-gray-700 focus:text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:shadow-outline`}
         href="#/"
       >
         {icon}
         {title}
         {rightLabel && (
-          <small className="bg-gray-100 text-sm ml-auto h-8 p-1 px-2 rounded-full">
+          <small className="bg-gray-100 text-sm ml-auto h-auto p-1 px-2 rounded-full">
             {rightLabel}
           </small>
         )}
