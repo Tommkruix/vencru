@@ -61,7 +61,7 @@ const Table: FC = (): ReactElement => {
             ) : (
               <>
                 {renderImage(users.slice(0, 5))}
-                <span className="text-gray-600 text-xs bg-gray-50 transform hover:scale-125 text-center -ml-1 p-1 pb-5  w-6 h-6 rounded-full border border-white border-2">
+                <span className="text-gray-600 text-xs bg-gray-50 transform hover:scale-125 text-center md:-ml-1 lg:-ml-1 xl:-ml-1 p-1 md:pb-5 lg:pb-5 sm:pb-5 w-6 h-6 rounded-full border border-white border-2">
                   {users.length - 5}
                 </span>
               </>
